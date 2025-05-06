@@ -64,8 +64,9 @@ Embedding models (for vector search)
 HuggingFace Transformers (for sentiment analysis & classification)
 
 📂 Project Structure
-book-recommender/
-│
+
+book-recommender
+
 ├── gradio-dashboard.py             # Gradio application
 
 ├── data-exploration.ipynb          # Data exploration
