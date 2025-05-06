@@ -67,15 +67,15 @@ HuggingFace Transformers (for sentiment analysis & classification)
 
 book-recommender
 
-├── gradio-dashboard.py             # Gradio application
+├── gradio-dashboard.py                    # Gradio application
 
-├── data-exploration.ipynb          # Data exploration
+├── data-exploration.ipynb                 # Data exploration
 
-├── vector-search.ipynb             # Similarity-search
+├── vector-search.ipynb                    # Similarity-search
 
-├── text-classification.ipynb       # Classifying Book Descriptions (Zero-Shot Classification)
+├── text-classification.ipynb             # Classifying Book Descriptions (Zero-Shot Classification)
 
-├── sentiment-analysis.ipynb        # Sentiment analysis for all book descriptions
+├── sentiment-analysis.ipynb              # Sentiment analysis for all book descriptions
 
 └── README.md                       # This page
 
