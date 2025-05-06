@@ -65,26 +65,27 @@ HuggingFace Transformers (for sentiment analysis & classification)
 
 📂 Project Structure
 
-book-recommender
+**book-recommender**
 
-├── gradio-dashboard.py                    # Gradio application
+├── **gradio-dashboard.py**                    # Gradio application
 
-├── data-exploration.ipynb                 # Data exploration
+├── **data-exploration.ipynb**                 # Data exploration
 
-├── vector-search.ipynb                    # Similarity-search
+├── **vector-search.ipynb**                    # Similarity-search
 
-├── text-classification.ipynb             # Classifying Book Descriptions (Zero-Shot Classification)
+├── **text-classification.ipynb**              # Classifying Book Descriptions (Zero-Shot Classification)
 
-├── sentiment-analysis.ipynb              # Sentiment analysis for all book descriptions
+├── **sentiment-analysis.ipynb**              # Sentiment analysis for all book descriptions
 
-└── README.md                       # This page
+└── **README.md**                             # This page
 
 🎯 Functionality
-retrieve_semantic_recommendations(): Finds similar books using  by similarity_-search
 
-generate_predictions(): Returns the category with the maximum score probability.
+**retrieve_semantic_recommendations():** Finds similar books using  by similarity_-search
 
-calculate_max_emotion_scores(): Keeps all scores for a single statement.It reveals the score point for each emotion and adds it using the correct tag.
+**generate_predictions():** Returns the category with the maximum score probability.
+
+**calculate_max_emotion_scores():** Keeps all scores for a single statement.It reveals the score point for each emotion and adds it using the correct tag.
 
 📸 Sample UI
 
