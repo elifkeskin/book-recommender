@@ -23,18 +23,27 @@ path = dataset_download("dylanjcastillo/7k-books-with-metadata")
 This dataset includes metadata for over 7,000 books, such as title, author, genre, and description.
 
 🚀 Getting Started
+
 1. Clone the Repository
+   
 git clone https://github.com/elifkeskin/book-recommender.git
+
 cd book-recommender
 
 2. (Optional) Create a Virtual Environment
+   
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+source venv/bin/activate 
+
+# On Windows: venv\Scripts\activate
 
 3. Install Dependencies
+
 pip install -r requirements.txt
 
 4. Run the Gradio App
+   
 python gradio-dashboard.py
 
 Gradio will generate a local and public link where you can interact with the app.
@@ -58,10 +67,15 @@ HuggingFace Transformers (for sentiment analysis & classification)
 book-recommender/
 │
 ├── gradio-dashboard.py             # Gradio application
+
 ├── data-exploration.ipynb          # Data exploration
+
 ├── vector-search.ipynb             # Similarity-search
+
 ├── text-classification.ipynb       # Classifying Book Descriptions (Zero-Shot Classification)
+
 ├── sentiment-analysis.ipynb        # Sentiment analysis for all book descriptions
+
 └── README.md                       # This page
 
 🎯 Functionality
